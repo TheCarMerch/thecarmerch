@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Car Merch</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>The Car Merch</h1>
+        <p>Amazon affiliate products</p>
+        <input type="text" id="searchBar" placeholder="Search...">
+        <div id="categories">
+            <button onclick="filterCategory('car')">Car Accessories</button>
+            <button onclick="filterCategory('tech')">Tech</button>
+            <button onclick="filterCategory('home')">Home Décor</button>
+            <button onclick="toggleTheme()">Toggle Theme</button>
+        </div>
+    </header>
+    <main id="product-list">
+        <!-- Example Products -->
+        <div class="product-card car">
+            <img src="images/steering.jpg" alt="Steering Cover">
+            <h2>Leather Steering Wheel Cover</h2>
+            <p>Universal fit, non-slip, breathable</p>
+            <a href="https://www.amazon.com/your-affiliate-link" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product-card tech">
+            <img src="images/headphones.jpg" alt="Headphones">
+            <h2>Wireless Noise Cancelling Headphones</h2>
+            <p>Bluetooth, built-in microphone</p>
+            <a href="https://www.amazon.com/your-affiliate-link" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product-card car">
+            <img src="images/aircompressor.jpg" alt="Air Compressor">
+            <h2>Portable Mini Air Compressor</h2>
+            <p>Digital display, auto shut-off</p>
+            <a href="https://www.amazon.com/your-affiliate-link" target="_blank">Buy on Amazon</a>
+        </div>
+        <div class="product-card home">
+            <img src="images/mirror.jpg" alt="Mirror">
+            <h2>Wood Wall Mirror</h2>
+            <p>Round shape, rustic finish</p>
+            <a href="https://www.amazon.com/your-affiliate-link" target="_blank">Buy on Amazon</a>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

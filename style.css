@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+header {
+    text-align: center;
+    padding: 1em;
+}
+#categories button {
+    margin: 5px;
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.product-card {
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+.product-card img {
+    width: 100px;
+    height: auto;
+}
+.product-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background: orange;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.light-mode {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.light-mode .product-card {
+    background: white;
+}
